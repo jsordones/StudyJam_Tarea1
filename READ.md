@@ -4,6 +4,7 @@ Copia del interfaz de una aplicacion movil
 #Link de la tarea
 https://github.com/jsordones/StudyJam_Tarea1.git
 
+#Captura
 <div align="center">
     <center>
         <img src="/img/captura.png" width="400px"/>
@@ -11,4 +12,4 @@ https://github.com/jsordones/StudyJam_Tarea1.git
 </div>
 
 
-
+<br></br>
