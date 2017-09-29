@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jsordones.tarea1.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#f3f3f3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/datos"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.91">
+
+
+<ImageView
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:src="@drawable/sololearn"
+
+    />
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="143dp"
+            android:fontFamily="sans-serif"
+            android:hint="Correo electrónico"
+            android:textSize="11sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp">
+
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textSize="11sp"
+                android:fontFamily="sans-serif"
+                android:hint="Contraseña"
+                android:inputType="textPassword" />
+
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ojo" />
+            >
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#00bcd4"
+            android:layout_marginTop="15dp"
+            android:text="INICIAR SESIÓN"
+            android:textColor="#ffffff"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Olvidaste contraseña?"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <ImageButton
+
+            android:layout_marginTop="105dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+            android:background="@drawable/botonfacebook"
+            />
+      <ImageButton
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:background="@drawable/botongoogleplus"
+          android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREAR UNA NUEVA CUENTA"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+
+
+
+</android.widget.LinearLayout>
